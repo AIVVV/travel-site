@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-watch": "^4.3.11",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-simple-vars": "^4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,9 +31,5 @@
   "bugs": {
     "url": "https://github.com/AIVVV/travel-site/issues"
   },
-  "homepage": "https://github.com/AIVVV/travel-site#readme",
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "normalize.css": "^7.0.0"
-  }
+  "homepage": "https://github.com/AIVVV/travel-site#readme"
 }
