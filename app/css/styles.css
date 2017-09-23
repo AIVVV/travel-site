@@ -585,20 +585,20 @@ a {
     }
 
 .page-section {
-	padding: 1.2rem 0;
+    padding: 1.2rem 0;
 }
 
 @media (min-width: 800px) {
 
 .page-section {
-		padding:4.5rem 0
+        padding: 4.5rem 0
 }
     }
 
 .page-section--blue {
-		background-color: #2f5572;
-		color: #fff;
-	}
+        background-color: #2f5572;
+        color: #fff;
+    }
 
 .headline {
     font-size: 1.9rem;
@@ -664,8 +664,16 @@ a {
         margin-right: -65px;
     }
 
+.row__gutters-large {
+        margin-right: -100px;
+    }
+
 .row__gutters>div {
         padding-right: 65px;
+    }
+
+.row__gutters-large>div {
+        padding-right: 100px;
     }
 
 .row__b-margin-until-medium {
@@ -687,6 +695,11 @@ a {
             width: 37%;
         }
 
+        .row__medium-6 {
+            float: left;
+            width: 50%;
+        }
+
         .row__medium-8 {
             float: left;
             width: 66.66%;
@@ -698,9 +711,10 @@ a {
     }
 
 .generic-content-container p {
+        font-weight: 300;
         line-height: 1.65;
         font-size: 1rem;
-        margin: 1.8rem 0;
+        margin:0 0 1.8rem 0;
     }
 
 @media (min-width: 530px) {
@@ -712,4 +726,79 @@ a {
 
 .generic-content-container p a {
         font-weight: 700;
+    }
+
+.section-title {
+    font-size: 2.55rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (min-width: 530px) {
+
+.section-title {
+        font-size: 3.75rem
+}
+    }
+
+.section-title strong {
+        font-weight: 500;
+    }
+
+.section-title__icon {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0.6rem;
+    }
+
+@media (min-width: 530px) {
+
+.section-title__icon {
+            margin-right: 0.5rem;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: inline-block
+    }
+    }
+
+.feature-item {
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+@media (min-width: 800px) {
+
+.feature-item {
+        padding-left: 94px
+}
+    }
+
+.feature-item__icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+@media (min-width: 800px) {
+
+.feature-item__icon {
+            position: absolute;
+            left: 0
+    }
+    }
+
+.feature-item__title {
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 0.7rem;
+        margin-bottom: 0.8rem;
+    }
+
+@media (min-width: 800px) {
+
+.feature-item__title {
+            font-size: 1.875rem;
+            margin-top: 1rem;
+            text-align: left
+    }
     }
