@@ -766,7 +766,7 @@ a {
     padding-bottom: 2.5rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 530px) {
 
 .feature-item {
         padding-left: 94px
@@ -778,7 +778,7 @@ a {
         margin: 0 auto;
     }
 
-@media (min-width: 800px) {
+@media (min-width: 530px) {
 
 .feature-item__icon {
             position: absolute;
@@ -794,7 +794,7 @@ a {
         margin-bottom: 0.8rem;
     }
 
-@media (min-width: 800px) {
+@media (min-width: 530px) {
 
 .feature-item__title {
             font-size: 1.875rem;
