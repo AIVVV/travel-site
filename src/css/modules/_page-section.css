@@ -4,9 +4,35 @@
     @mixin atMedium {
         padding: 4.5rem 0;
     }
+	
+	&__no-b-padding-until-medium {
+		padding-bottom: 0;
+	}
+	
+	@mixin atMedium {
+		padding-bottom: 4.5rem;
+	}
+
+	&__no-b-padding-until-large {
+		padding-bottom: 0;
+	}
+	
+	@mixin atLarge {
+		padding-bottom: 4.5rem;
+	}
 
     &--blue {
         background-color: $mainBlue;
         color: #fff;
+    }
+
+    &--testimonials {
+		background-color: #e0e6ef;
+    	@mixin atLarge {
+	    	background-image: url(/assets/testimonials-bg.jpg);
+	    	background-position: top center;
+	    	background-repeat: no-repeat;
+	    	background-size: cover;
+    	}
     }
 }
