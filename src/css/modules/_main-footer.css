@@ -1,0 +1,21 @@
+.main-footer {
+    background-color: $mainBlue;
+    color: #fff;
+    padding: 0.5rem;
+
+    &__content {
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 300;
+    }
+
+    &__btn {
+        margin-left: 0;
+        margin-top: 1.5rem;
+
+        @mixin atSmall {
+            margin-left: 3.4375rem;
+            margin-top: 0;
+        }
+    }
+}
