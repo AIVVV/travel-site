@@ -7,11 +7,13 @@
 
     &--b-margin {
         margin-bottom: 1rem;
+
+        @mixin atMedium {
+            margin-bottom: 3.875rem;            
+        }
     }
 
-    @mixin atSmall {
-        margin-bottom: 3.875rem;
-    }
+    
 
     &--medium {
         max-width: 976px;

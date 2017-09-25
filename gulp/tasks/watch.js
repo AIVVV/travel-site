@@ -27,5 +27,4 @@ gulp.task('server', ['styles'], function() {
 gulp.task('watch', ['server', 'html', 'styles', 'clean-html'], function() {
     gulp.watch([SOURCEPATHS.htmlSource], ['html', 'clean-html']);
     gulp.watch([SOURCEPATHS.cssSource], ['styles']);
-    gulp.watch([SOURCEPATHS.imgSource], ['minify-imgs']);
 });
