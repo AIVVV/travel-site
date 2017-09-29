@@ -4,8 +4,8 @@ var gulp = require('gulp'),
 
 var SOURCEPATHS = {
     htmlSource: 'src/*.html',
-    cssSource: 'src/css/*.css',
-    jsSource: 'src/js/**',
+    cssSource: 'src/css/**/*.css',
+    jsSource: 'src/scripts/**',
     imgSource: 'src/assets/**'
 };
 
@@ -13,7 +13,7 @@ var APPPATH = {
     root: 'app/',
     img: 'app/assets',
     css: 'app/css',
-    js: 'app/js'
+    js: 'app/scripts'
 };
 
 gulp.task('server', ['styles'], function() {
@@ -24,7 +24,12 @@ gulp.task('server', ['styles'], function() {
     });
 });
 
-gulp.task('watch', ['server', 'html', 'styles', 'clean-html'], function() {
+gulp.task('scriptRefresh', ['scripts'], function() {
+    browserSync.reload();
+});
+
+gulp.task('watch', ['server', 'html', 'styles', 'clean-html', 'scripts'], function() {
     gulp.watch([SOURCEPATHS.htmlSource], ['html', 'clean-html']);
     gulp.watch([SOURCEPATHS.cssSource], ['styles']);
+    gulp.watch([SOURCEPATHS.jsSource], ['scriptRefresh']);
 });

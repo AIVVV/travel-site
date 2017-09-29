@@ -10,15 +10,11 @@ var gulp = require('gulp'),
 var SOURCEPATHS = {
     htmlSource: 'src/*.html',
     cssSource: 'src/css/**.css',
-    jsSource: 'src/js/**',
-    imgSource: 'src/assets/**'
 };
 
 var APPPATH = {
     root: 'app/',
-    img: 'app/assets',
     css: 'app/css',
-    js: 'app/js'
 };
 
 gulp.task('styles', function() {
