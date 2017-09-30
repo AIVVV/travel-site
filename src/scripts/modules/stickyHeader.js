@@ -4,7 +4,7 @@ import waypoints from '../../../node_modules/waypoints/lib/noframework.waypoints
 import smoothScroll from 'jquery-smooth-scroll';
 
 
-class stickyHeader {
+class StickyHeader {
 	constructor() {
 		this.siteHeader = $('.site-header');
 		this.headerTriggerElement = $('.large-hero__title');
@@ -66,4 +66,4 @@ class stickyHeader {
 	
 }
 
-export default stickyHeader;
+export default StickyHeader;

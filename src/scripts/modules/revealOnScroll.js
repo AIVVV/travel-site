@@ -3,7 +3,7 @@ var $ = jQuery;
 import waypoints from '../../../node_modules/waypoints/lib/noframework.waypoints';
 
 
-class revealOnScroll {
+class RevealOnScroll {
 	constructor(els, offset) {
 		this.itemsToReveal = els; 
 		this.offsetPercentage = offset;
@@ -30,4 +30,4 @@ class revealOnScroll {
 	}
 }
 
-export default revealOnScroll;
+export default RevealOnScroll;
