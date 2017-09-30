@@ -1,4 +1,4 @@
-import jQuery from 'jQuery';
+import jQuery from 'jquery';
 var $ = jQuery;
 import waypoints from '../../../node_modules/waypoints/lib/noframework.waypoints';
 
