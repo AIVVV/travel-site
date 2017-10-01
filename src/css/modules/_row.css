@@ -95,7 +95,7 @@
     }
 
     /*Begin Equal Height Rules */
-    &__equal-height-at-medium {
+    .flexbox &__equal-height-at-medium {
 
         &>div {
             float: none;
@@ -107,7 +107,7 @@
         }
     }
 
-    &__equal-height-at-large {
+    .flexbox &__equal-height-at-large {
 
         &>div {
             float: none;
