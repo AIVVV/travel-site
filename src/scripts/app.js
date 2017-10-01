@@ -1,4 +1,4 @@
-import jQuery from 'jQuery';
+import jQuery from 'jquery';
 var $ = jQuery;
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/revealOnScroll';

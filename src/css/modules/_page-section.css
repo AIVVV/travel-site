@@ -28,11 +28,14 @@
 
     &--testimonials {
 		background-color: #e0e6ef;
+    	
     	@mixin atLarge {
-	    	background-image: url(/assets/testimonials-bg.jpg);
-	    	background-position: top center;
-	    	background-repeat: no-repeat;
-	    	background-size: cover;
+	    	&.lazyloaded {
+	    		background-image: url(/assets/testimonials-bg.jpg);
+	    		background-position: top center;
+	    		background-repeat: no-repeat;
+	    		background-size: cover;
+	    	}
     	}
     }
 }
