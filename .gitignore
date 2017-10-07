@@ -1,6 +1,5 @@
 # Folders to ignore
 node_modules
-sites-source
 
 # Files to ignore
 .gitignore
