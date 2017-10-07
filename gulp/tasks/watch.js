@@ -5,13 +5,11 @@ var gulp = require('gulp'),
 var SOURCEPATHS = {
     htmlSource: 'src/*.html',
     cssSource: 'src/css/**/*.css',
-    jsSource: 'src/scripts/**',
-    imgSource: 'src/assets/**'
+    jsSource: 'src/scripts/**'
 };
 
 var APPPATH = {
     root: 'app/',
-    img: 'app/assets',
     css: 'app/css',
     js: 'app/scripts'
 };
